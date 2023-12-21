@@ -1,0 +1,11 @@
+extends layouts/auth-layout.pug
+
+block bodyContent
+	.login-container 
+		img(src="images/logo.svg", alt="not twitter logo").login-logo
+		h1.login-title Login to Definitely Not Twitter
+		form(method="post").login-form
+			input(type="text", name="email", placeholder="Email", required="").login-input
+			input(type="password", name="password", placeholder="Password", required="").login-input
+			input(type="submit", value="Login").login-button.clickable
+		a(href="/register").login-message.clickable Don't have an account? Register here.
