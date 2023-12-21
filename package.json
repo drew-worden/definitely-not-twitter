@@ -1,0 +1,11 @@
+{
+	"name": "definitely-not-twitter",
+	"author": "Drew Worden",
+	"description": "Just another clone of Twitter.",
+	"version": "0.0.1",
+	"license": "MIT",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	}
+}
